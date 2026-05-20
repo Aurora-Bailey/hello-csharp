@@ -1,5 +1,4 @@
-﻿Console.WriteLine("Hello, World!");
-using System.Xml.Linq;
+﻿using System.Xml.Linq;
 
 internal class Program
 {
@@ -33,8 +32,21 @@ abstract class ModelBase {
     }
 }
 
+public class MyClass {
+    private string something = "neio";
+
+    public string FetchSomething(){
+        return something;
+    }
+
+    public MyClass (){
+        return;
+    }
+}
+
 class Student: ModelBase {
     private string name;
+    
 
     public string Name {
         get => name;
