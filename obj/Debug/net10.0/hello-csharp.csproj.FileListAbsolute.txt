@@ -1,0 +1,15 @@
+/Users/aurorabailey/Git/hello-csharp/bin/Debug/net10.0/hello-csharp
+/Users/aurorabailey/Git/hello-csharp/bin/Debug/net10.0/hello-csharp.deps.json
+/Users/aurorabailey/Git/hello-csharp/bin/Debug/net10.0/hello-csharp.runtimeconfig.json
+/Users/aurorabailey/Git/hello-csharp/bin/Debug/net10.0/hello-csharp.dll
+/Users/aurorabailey/Git/hello-csharp/bin/Debug/net10.0/hello-csharp.pdb
+/Users/aurorabailey/Git/hello-csharp/obj/Debug/net10.0/hello-csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aurorabailey/Git/hello-csharp/obj/Debug/net10.0/hello-csharp.AssemblyInfoInputs.cache
+/Users/aurorabailey/Git/hello-csharp/obj/Debug/net10.0/hello-csharp.AssemblyInfo.cs
+/Users/aurorabailey/Git/hello-csharp/obj/Debug/net10.0/hello-csharp.csproj.CoreCompileInputs.cache
+/Users/aurorabailey/Git/hello-csharp/obj/Debug/net10.0/hello-csharp.sourcelink.json
+/Users/aurorabailey/Git/hello-csharp/obj/Debug/net10.0/hello-csharp.dll
+/Users/aurorabailey/Git/hello-csharp/obj/Debug/net10.0/refint/hello-csharp.dll
+/Users/aurorabailey/Git/hello-csharp/obj/Debug/net10.0/hello-csharp.pdb
+/Users/aurorabailey/Git/hello-csharp/obj/Debug/net10.0/hello-csharp.genruntimeconfig.cache
+/Users/aurorabailey/Git/hello-csharp/obj/Debug/net10.0/ref/hello-csharp.dll
