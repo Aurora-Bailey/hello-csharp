@@ -1,28 +1,19 @@
 ﻿namespace hello_csharp;
 
-internal class Program
+internal static class Program
 {
-    private static void Main(string[] args)
+    private static async Task Main()
     {
-        var f = new Foo();
-        f.a = 3;
-        var before = f.IncrimentBefore(1);
-        var after = f.IncrimentAfter(1);
-        var addHundred = f.AddHundred(1);
-        var name = f.GetName();
-        f.ChangeName("bob");
-        var newName = f.GetName();
+        using var cancellation = new CancellationTokenSource();
 
-        var alice = new Student("bob");
-        alice.Name = "alice";
+        IUserDialogue dialogue = new ConsoleDialogue();
+        var app = new ConversationApp(dialogue, new JokeBook());
 
-        var bob = new Student("alice");
-        bob.Name = "bob";
+        app.UserProfileCompleted += (_, user) =>
+        {
+            dialogue.SayQuietly($"profile captured at {user.CreatedAt:HH:mm}");
+        };
 
-        Console.WriteLine($"Student: {alice}");
-
-        Console.WriteLine($"Name before: {name} Name after: {newName}");
-        Console.WriteLine($"before: {before} after: {after} hundred: {addHundred}");
-        Console.WriteLine("Hello, World!");
+        await app.RunAsync(cancellation.Token);
     }
 }
