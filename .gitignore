@@ -1,0 +1,15 @@
+bin/
+obj/
+
+.vs/
+.vscode/
+.idea/
+
+*.user
+*.suo
+*.rsuser
+
+TestResults/
+*.trx
+
+*.nupkg
